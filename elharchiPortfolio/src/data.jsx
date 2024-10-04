@@ -30,7 +30,7 @@ import {
 } from 'react-icons/si';
 
 
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import { FiFileText, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/ecomShop.png';
 import ecomShop from './assets/ecomShop.mp4';
@@ -40,10 +40,10 @@ import Work2 from './assets/WeatherApp.jpeg';
 import weatherApp from './assets/weatherApp.mp4';
 
 import Work3 from './assets/YoutubeApp.jpeg';
-import YoutubeApp from './assets/YoutubeApp.mp4';
+import YoutubeApp from './assets/youtubeApp.mp4';
 
 import Work4 from './assets/react_laravel.png';
-// import Rea from './assets/YoutubeApp.mp4';
+
 
 import Work5 from './assets/school.png';
 import school from './assets/school.mp4';
