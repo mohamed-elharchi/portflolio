@@ -148,7 +148,7 @@ const Contact = () => {
     setErrorMessage("");
 
     try {
-      const response = await fetch("https://elharchi-mohamed-email-sender.onrender.com/", {
+      const response = await fetch("https://elharchi-mohamed-email-sender.onrender.com/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
