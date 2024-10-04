@@ -200,14 +200,19 @@ export const resume = [
   //   desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
   // },
 
+  
+
+  
+
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2019-2020',
-    title: 'Bachelor Degree <span> Moulay Ismail High School </span>',
-    desc: "In 2020, I earned my Bachelor's degree from Moulay Ismail High School, gaining essential knowledge for my future endeavors",
+    year: '2022-2024',
+    title: 'Digital Development <span> Specialized Institute of Applied Technology Driouch </span>',
+    desc: 'I studied Digital Development at the Specialized Institute of Applied Technology Driouch, where I gained a solid foundation in programming and technology.Simultaneously, I worked on various self-learning projects to grow my skills and build practical experience.',
   },
+
 
   {
     id: 5,
@@ -222,9 +227,9 @@ export const resume = [
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2022-2024',
-    title: 'Digital Development <span> Specialized Institute of Applied Technology Driouch </span>',
-    desc: 'I studied Digital Development at the Specialized Institute of Applied Technology Driouch, where I gained a solid foundation in programming and technology.Simultaneously, I worked on various self-learning projects to grow my skills and build practical experience.',
+    year: '2019-2020',
+    title: 'Bachelor Degree <span> Moulay Ismail High School </span>',
+    desc: "In 2020, I earned my Bachelor's degree from Moulay Ismail High School, gaining essential knowledge for my future endeavors",
   },
 ];
 
