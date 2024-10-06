@@ -1,12 +1,11 @@
 import Info from "../../components/Info";
 import Stats from "../../components/Stats";
 import { FaDownload } from "react-icons/fa";
-import CV from "../../assets/elharchi-Cv.pdf";
+import CV from "../../assets/ElharchiMohamed_CV.pdf";
 import "./about.css";
 import Skills from "../../components/Skills";
-import {resume} from '../../data'
+import { resume } from "../../data";
 import ResumeItem from "../../components/ResumeItem";
-
 
 const About = () => {
   return (
@@ -41,7 +40,9 @@ const About = () => {
 
       <section className="skills">
         <h3 className="section__subtitle subtitle__center">My Skills</h3>
-        <h5 className="subtitle__center">I'm really good at some things, while average at others.</h5>
+        <h5 className="subtitle__center">
+          I'm really good at some things, while average at others.
+        </h5>
 
         <div className="skills__container grid">
           <Skills />
@@ -51,26 +52,25 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="resume">
-        <h3 className="section__subtitle subtitle__center">Education & Experience</h3>
+        <h3 className="section__subtitle subtitle__center">
+          Education & Experience
+        </h3>
         <div className="resume__container grid">
-
-        <div className="resume__data">
+          <div className="resume__data">
             {resume.map((val) => {
-              if (val.category === 'education') {
-                return <ResumeItem key={val.id} {...val} />
+              if (val.category === "education") {
+                return <ResumeItem key={val.id} {...val} />;
               }
             })}
           </div>
 
           <div className="resume__data">
             {resume.map((val) => {
-              if (val.category === 'experience') {
-                return <ResumeItem key={val.id} {...val} />
+              if (val.category === "experience") {
+                return <ResumeItem key={val.id} {...val} />;
               }
             })}
           </div>
-
-        
         </div>
       </section>
     </main>
