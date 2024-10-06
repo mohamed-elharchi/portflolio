@@ -178,7 +178,7 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2024',
-    title: 'Web Developer (training) <span> Moulay Ismail High School </span>',
+    title: 'Web Developer (Intern) <span> Moulay Ismail High School </span>',
     desc: "During my internal training as a Web Developer at Moulay Ismail High School, I developed a comprehensive website that serves as an introduction to the school. The site features a control panel for tracking student attendance and allows students to easily request school certificates online. This project enhanced my skills in web development while contributing to the school's administrative efficiency.",
   },
 
